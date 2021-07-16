@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+
+  "name": "MyExtension",
+  "description": "Web Extension",
+  "version": "1.0.0",
+  "icons": { "128": "globe2.png" },
+  "browser_action": {
+    "default_icon": "globe2.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab"]
+}
